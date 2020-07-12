@@ -23,15 +23,9 @@ function App() {
           of them to render at a time
         */}
         <Switch>
-          <Route exact path="/">
-            <LandingPage />
-          </Route>
-          <Route path="/login">
-            <Loginpage />
-          </Route>
-          <Route path="/register">
-            <RegisterPage />
-          </Route>
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/login" component={Loginpage} />
+          <Route exact path="/register" component={RegisterPage} />
         </Switch>
       </div>
     </Router>
