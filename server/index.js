@@ -20,6 +20,8 @@ mongoose.connect(config.mongoURI,{
 
 app.get('/', (req, res) => res.send('Hello World~~~!'))
 
+app.get('/api/hello', (req, res) => res.send('Hello World!~~ '))
+
 app.post('/api/users/register', (req, res) => {
     const user = new User(req.body)
 
@@ -83,7 +85,7 @@ app.post('/api/users/login', (req, res) => {
       })
   })
 
-  
+
   
   const port = 5000
   app.listen(port, () => console.log(`Example app listening on port ${port}!`))
