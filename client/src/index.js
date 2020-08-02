@@ -20,7 +20,7 @@ ReactDOM.render(
       window.__REDUX_DEVTOOLS_EXTENSION__()
     )}
   >
-    <App />,
+    <App />
   </Provider>
 
   , document.getElementById('root')
