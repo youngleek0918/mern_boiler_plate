@@ -20,7 +20,7 @@ function LoginPage(props) {
     }
 
     const onSubmitHandler = (event) => {
-        // 페이지가 리프레쉬 되는것을 막아주기 위해서
+        // to reprevent refresh 
         event.preventDefault();
 
         let body = {

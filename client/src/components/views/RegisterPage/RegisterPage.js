@@ -35,7 +35,7 @@ function RegisterPage(props) {
         event.preventDefault();
 
         if(Password !== ConfirmPassword) {
-            return alert('비밀번호와 비밀번호 확인은 같아야 합니다.')
+            return alert('Please make sure your password match')
         }
 
         let body = {
