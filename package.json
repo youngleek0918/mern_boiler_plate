@@ -12,6 +12,7 @@
   "author": "youngleek",
   "license": "MIT",
   "dependencies": {
+    "antd": "^4.5.1",
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "concurrently": "^5.2.0",
